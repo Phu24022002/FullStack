@@ -1,0 +1,124 @@
+/* reset margin, padding */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.banner {
+  height: 800px;
+  background: url("../Image/banner.jpg") center center no-repeat;
+  padding: 20px;
+
+  .about-sign-in {
+    height: 80px;
+    width: 100%;
+    text-align: right;
+    margin-top: 20px;
+    .about,
+    .sign-in {
+      text-decoration: none;
+      padding: 10px 15px;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+    .about {
+      margin-right: 25px;
+    }
+    .sign-in {
+      margin-right: 80px;
+      border-radius: 20px;
+      border: 2px solid green;
+      color: green;
+    }
+  }
+  .logo {
+    background: url(../Image/hapoERP.png) center center no-repeat;
+    margin-top: 150px;
+    height: 100px;
+  }
+  .text {
+    text-align: center;
+    margin-top: 30px;
+    span {
+      color: rgb(112, 21, 197);
+    }
+  }
+  .btn-start-now {
+    margin-top: 30px;
+    text-align: center;
+    button {
+      text-transform: uppercase;
+      padding: 10px 15px;
+      margin-top: 25px;
+      border-radius: 20px;
+      cursor: pointer;
+      background-color: green;
+      color: aliceblue;
+      font-family: "Times New Roman", Times, serif;
+    }
+  }
+  .content-center {
+    .left,
+    .right,
+    .center {
+      margin-top: 30px;
+      width: 33%;
+      display: inline-block;
+      text-align: center;
+      .img-icon {
+        width: 50px;
+        height: 50px;
+      }
+    }
+    span {
+      display: block;
+      font-size: 25px;
+      margin-top: 15px;
+      color: red;
+    }
+  }
+}
+
+.center-img {
+  display: flex;
+  .center-img-left {
+    .center-text {
+      display: flex !important;
+      max-width: 50%;
+      align-items: center;
+      margin-left: 216px;
+      .icon-leart-left {
+        width: 36px;
+        height: 36px;
+      }
+    }
+    .today-i-learn {
+      margin-left: 100px;
+      width: 540px;
+      height: 365px;
+    }
+  }
+  .center-img-right {
+    .center-text {
+      display: flex !important;
+      max-width: 50%;
+      align-items: center;
+      margin-left: 216px;
+      .icon-leart-right {
+        width: 36px;
+        height: 36px;
+      }
+    }
+    .btn-start-now-2 {
+      button {
+        text-transform: uppercase;
+        padding: 10px 15px;
+        margin-top: 25px;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: green;
+        color: aliceblue;
+        font-family: "Times New Roman", Times, serif;
+      }
+    }
+  }
+}

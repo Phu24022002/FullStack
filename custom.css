@@ -1,0 +1,118 @@
+/* reset margin, padding */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.banner {
+  height: 800px;
+  background: url("./banner.jpg") center center no-repeat;
+  padding: 20px;
+}
+.banner .about-sign-in {
+  height: 80px;
+  width: 100%;
+  text-align: right;
+  margin-top: 20px;
+}
+.banner .about-sign-in .about,
+.banner .about-sign-in .sign-in {
+  text-decoration: none;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.banner .about-sign-in .about {
+  margin-right: 25px;
+}
+.banner .about-sign-in .sign-in {
+  margin-right: 80px;
+  border-radius: 20px;
+  border: 2px solid green;
+  color: green;
+}
+.banner .logo {
+  background: url(./hapoERP.png) center center no-repeat;
+  margin-top: 150px;
+  height: 100px;
+}
+.banner .text {
+  text-align: center;
+  margin-top: 30px;
+}
+.banner .text span {
+  color: #7015c5;
+}
+.banner .btn-start-now {
+  margin-top: 30px;
+  text-align: center;
+}
+.banner .btn-start-now button {
+  text-transform: uppercase;
+  padding: 10px 15px;
+  margin-top: 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: green;
+  color: aliceblue;
+  font-family: "Times New Roman", Times, serif;
+}
+.banner .content-center .left,
+.banner .content-center .right,
+.banner .content-center .center {
+  margin-top: 30px;
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+}
+.banner .content-center .left .img-icon,
+.banner .content-center .right .img-icon,
+.banner .content-center .center .img-icon {
+  width: 50px;
+  height: 50px;
+}
+.banner .content-center span {
+  display: block;
+  font-size: 25px;
+  margin-top: 15px;
+  color: red;
+}
+
+.center-img {
+  display: flex;
+}
+.center-img .center-img-left .center-text {
+  display: flex !important;
+  max-width: 50%;
+  align-items: center;
+  margin-left: 216px;
+}
+.center-img .center-img-left .center-text .icon-leart-left {
+  width: 36px;
+  height: 36px;
+}
+.center-img .center-img-left .today-i-learn {
+  margin-left: 100px;
+  width: 540px;
+  height: 365px;
+}
+.center-img .center-img-right .center-text {
+  display: flex !important;
+  max-width: 50%;
+  align-items: center;
+  margin-left: 216px;
+}
+.center-img .center-img-right .center-text .icon-leart-right {
+  width: 36px;
+  height: 36px;
+}
+.center-img .center-img-right .btn-start-now-2 button {
+  text-transform: uppercase;
+  padding: 10px 15px;
+  margin-top: 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: green;
+  color: aliceblue;
+  font-family: "Times New Roman", Times, serif;
+}
