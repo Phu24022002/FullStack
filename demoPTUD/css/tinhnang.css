@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    transition: all 0.2s linear;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --blue: rgb(62, 168, 203);
+    --pink: #35a4aa;
+    --lightpink : #78a7d7;
+    --violet: #3f8f95;
+    --lightviolet: #7cbdaf;
+    --yellow: #449de6;
+    --black: #1e292d;
+    --grey:var(--pink);
+}
+
+*::selection {
+    background: var(--lightviolet);
+    color: #fff;
+}
+
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+/* =============================================================Custom Scrollbar */
+
+body::-webkit-scrollbar {
+    width: 1rem;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: var(--blue);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--lightviolet);
+    border-radius: 1.2rem;
+}
+
+section.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 120vh;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10rem;
+    background-image: url("../img/about-/us.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 10rem;
+}
+/*VIECQUANTRONH8*/
+section.content {
+    height:120%;
+    width: 100%;
+    text-align: center;
+    border:#3f8f95;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+}
+table {
+    width: 100%;
+    height:50%;
+    padding:10%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+
+}
+section.content .tieude {
+    background-color:#fff;
+    width: 10%;
+    border: 1px solid #eee;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+
+}
+section.content.ghichu{
+    height:100%;
+    width:80%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;}
+
+/*dieubieton*/
+section.content.td{
+    height:1000%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+}
+section.content h1{
+    font-size: 7.5rem;
+    font-weight: 500;
+    text-align: center;
+    font-style: italic;
+    color: var(--blue);
+    font-family: 'Cormorant Garamond', serif;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    position: relative;
+}
+section.content.nd{
+    width: 100%;
+    height:100%;
+    padding:10%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+}
+/*Nhinlai*/
+section.content.form{
+    width: 100%;
+    height:50%;
+    padding:10%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+
+}
+#txtThan , #txtTam , #txtTri{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(168, 248, 248);
+}
+section.content h2{
+    font-size: 2.5rem;
+    font-weight: 200;
+    text-align: center;
+    font-style:inherit;
+    color:#449de6;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+#txtMonth{
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-align: center;
+    font-style:inherit;
+    color:#449de6;
+    font-family: 'Cormorant Garamond', serif;
+}
+/*Camxuc*/
+section.content.content-ct{
+    height:100%;
+    width:100%
+}
+canvas {
+    display: block;
+    position: fixed;
+    z-index: -100;
+}
+/*Muctieu*/
+section.content.chude{
+    text-align: center;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+}
+.sidebar-cart {
+    position: relative;
+}
+
+.sidebar-cart .count {
+    font-size: 1.5rem;
+    position: absolute;
+    top: -1rem;
+    right: -1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: #414772;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
